@@ -1,9 +1,7 @@
 name: main
 
-on:
-  push:
-    branches:
-      - main  # Replace with your branch name if necessary
+on: [push, pull_request]
+# Replace with your branch name if necessary
 
 jobs:
   release:
